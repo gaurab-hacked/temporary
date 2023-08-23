@@ -1,37 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <div class="main-content">
-            <div class="head">
-                <h4>PROGRESS REPORT</h4>
-            </div>
-            <div class="para">
-                <p>FIRST TERMINAL EXAMINATION - 2080(2023/24)</p>
-            </div>
-            <div class="date">
-                <p>DATE:SAT.JUL.22,2023(SHARAWAN 06, 2080)</p>
-            </div>
+      <div class="main-content">
+        <div class="head text-center flex flex-col gap-2">
+          <h4>LOGO</h4>
+          <h4 class="text-xl">Blueberry School</h4>
+          <h4 class="text-lg">PROGRESS REPORT</h4>
         </div>
+        <div class="semihead text-center my-2">
+          <h4>First Terminal Examination</h4>
+          <h4>2080</h4>
+        </div>
+        <table class="HeadTable">
+            <tr>
+                <td>Name:-</td>
+                <td colspan="3">DOB:-</td>
+                <td colspan="3">Roll No:- </td>
+            </tr>
+            <tr>
+                <td>Level:- </td>
+                <td colspan="3">Grade/Section:-</td>
+            </tr>
+        </table>
+
         <table>
-            <tr>
-                <td>Name:AAROUSH ACHARYA</td>
-                <td colspan="3">DOB: JUN 30, 2015</td>
-                <td colspan="3">FACULTY: NONE</td>
-            </tr>
-            <tr>
-                <td>LEVEL:SCHOOL (I-X)</td>
-                <td colspan="3">GRADE/SECTION: III Danphe</td>
-                <td colspan="3">ROLL NO: 3</td>
-            </tr>
-            </table>
-            <table>
             <tr>
                 <th rowspan="2">S.N</th>
                 <th rowspan="2">SUBJECTS</th>
@@ -42,90 +41,81 @@
             </tr>
             <tr>
                 <th>TH</th>
-                <th>IN</th>
+                <th>PR</th>
             </tr>
-            <tr>
+            <tr class="removeRow">
                 <td>1</td>
                 <td>English</td>
-                <td>4.00</td>
-                <td>A+</td>
-                <td>A+</td>
+                <td>5.00</td>
+                <td>50</td>
+                <td>50</td>
                 <td>A+</td>
                 <td>4.00</td>
             </tr>
-            <tr>
+            <tr class="removeRow">
                 <td>2</td>
                 <td>Nepali</td>
                 <td>5.00</td>
-                <td>A</td>
-                <td>A</td>
-                <td>A</td>
-                <td>3.60</td>
+                <td>50</td>
+                <td>50</td>
+                <td>A+</td>
+                <td>4.00</td>
             </tr>
-            <tr>
+            <tr class="removeRow">
                 <td>3</td>
                 <td>Mathematics</td>
-                <td>4.00</td>
-                <td>A+</td>
-                <td>A+</td>
+                <td>5.00</td>
+                <td>50</td>
+                <td>50</td>
                 <td>A+</td>
                 <td>4.00</td>
             </tr>
-            <tr>
+            <tr class="removeRow">
                 <td>4</td>
-                <td>Hamro Serofero</td>
+                <td>Science</td>
                 <td>5.00</td>
-                <td>A+</td>
-                <td>A+</td>
+                <td>50</td>
+                <td>50</td>
                 <td>A+</td>
                 <td>4.00</td>
             </tr>
             <tr>
                 <td>5</td>
-                <td>Science And Technology</td>
-                <td>3.00</td>
-                <td>A+</td>
-                <td>A+</td>
-                <td>A+</td>
-                <td>4.00</td>
-            </tr>
-            <tr>
-                <td>6</td>
-                <td>Nepali Bhasa</td>
+                <td>Social</td>
                 <td>5.00</td>
-                <td>A+</td>
-                <td>A+</td>
+                <td>50</td>
+                <td>50</td>
                 <td>A+</td>
                 <td>4.00</td>
             </tr>
             <tr>
-                <td colspan="2" align="center">ATTENDENCE: 59/64</td>
-                <td colspan="4" align="center">GRADE POINT AVERAGE (GPA)</td>
-                <td>3.92</td>
+                <td colspan="2" align="center">ATTENDENCE: 30/30</td>
+                <td colspan="4" align="center">GRADE POINT AVERAGE (GPA)        </td>
+                <td>4.00</td>
             </tr>
             </table>
-            <table>
-            <tr>
-                <th colspan="6" align="center">OTHER EVALUATION AND OBSERVATION</th>
-            </tr>
-            <tr>
-                <td>Art and Craft</td>
-                <td>B+</td>
-                <td>Conversation</td>
-                <td>A</td>
-                <td>Dance</td>
-                <td>B+</td>
-            </tr>
-            <tr>
-                <td>Handwriting</td>
-                <td>B+</td>
-                <td>Music</td>
-                <td>B+</td>
-                <td>Sports</td>
-                <td>A</td>
-            </tr>
-        </table>
         <div class="flexdiv">
+            <table>
+                <tr>
+                    <td colspan="3" align="center"><h3>REMARKS</h3><p>Outstanding !</p></td>
+                </tr>
+                <tr>
+                    <td>
+                        <h3>ABBREVIATIONS</h3>
+                        <p>TH-Theory</p>
+                        <p>IN-Internal Evaluation</p>
+                        <p>Ab-Absent</p>
+                    </td>
+                    <td>
+                        <hr>
+                        <p>CLASS TEACHER</p>
+                    </td>
+                    <td>
+                        <hr>
+                        <p>PRINCIPAL</p>
+                    </td>
+                </tr>
+            </table>
             <table>
                 <tr>
                     <th>Grade</th>
@@ -173,28 +163,7 @@
                     <td>0.00</td>
                 </tr>
             </table>
-            <table>
-                <tr>
-                    <td colspan="3" align="center"><h3>REMARKS</h3><p>Outstanding !</p></td>
-                </tr>
-                <tr>
-                    <td>
-                        <h3>ABBREVIATIONS</h3>
-                        <p>TH-Theory</p>
-                        <p>IN-Internal Evaluation</p>
-                        <p>Ab-Absent</p>
-                    </td>
-                    <td>
-                        <hr>
-                        <p>CLASS TEACHER</p>
-                    </td>
-                    <td>
-                        <hr>
-                        <p>PRINCIPAL</p>
-                    </td>
-                </tr>
-            </table>
         </div>
     </div>
-</body>
+  </body>
 </html>
