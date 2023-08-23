@@ -55,6 +55,7 @@ td {
 .HeadTable tr,
 .HeadTable td {
   border: none;
+  text-align: start;
 }
 
 .text-center {
@@ -109,4 +110,7 @@ td {
 .Footer td {
   border-top: 1px solid black;
   width: 200px;
+}
+table td {
+  text-align: center;
 }
