@@ -4,10 +4,12 @@
   box-sizing: border-box;
 }
 .container {
-  min-width: 1500px;
+  max-width: 1100px;
+  margin: auto;
   height: 100%;
   padding: 15px;
   align-items: center;
+  font-family: Arial, Helvetica, sans-serif !important;
 }
 .main-content {
   width: 100%;
@@ -37,6 +39,9 @@ td {
   border: 1px solid black;
   border-collapse: collapse;
 }
+table th {
+  font-size: 14px;
+}
 th,
 td {
   justify-content: start;
@@ -44,4 +49,32 @@ td {
 }
 .removeRow td {
   border-bottom: 1px solid transparent;
+}
+.HeadTable,
+.HeadTable th,
+.HeadTable tr,
+.HeadTable td {
+  border: none;
+}
+
+.text-center {
+  text-align: center;
+}
+.my-2 {
+  margin: 10px 0;
+}
+.text-xl {
+  font-size: 26px;
+}
+.text-lg {
+  font-size: 18px;
+}
+.flex {
+  display: flex;
+}
+.flex-col {
+  flex-direction: column;
+}
+.gap-2 {
+  gap: 10px;
 }
