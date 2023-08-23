@@ -5,7 +5,7 @@
 }
 .container {
   max-width: 1100px;
-  margin: auto;
+  margin: 20px auto;
   height: 100%;
   padding: 15px;
   align-items: center;
@@ -79,7 +79,7 @@ td {
   gap: 20px;
 }
 .gap-1 {
-  gap: 10px;
+  gap: 5px;
 }
 .flexdiv {
   width: 100%;
