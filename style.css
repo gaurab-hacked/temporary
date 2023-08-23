@@ -2,10 +2,11 @@
     margin: 0;padding: 0;box-sizing: border-box;
 }
 .container{
-    min-width: 1500px;
+    max-width: 1100px;
     height: 100%;
     padding: 15px;
     align-items: center;
+    margin: auto;
 }
 .main-content{
     width: 100%;
@@ -35,4 +36,9 @@ table, tr, th, td{
 th, td{
     justify-content: start;
     padding: 5px 10px;
+}
+.flexdiv{
+    width: 100%;
+    display: flex;
+    
 }
