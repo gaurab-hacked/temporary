@@ -78,3 +78,13 @@ td {
 .gap-2 {
   gap: 10px;
 }
+.flexdiv {
+  width: 100%;
+  display: flex;
+}
+.w-half {
+  width: 50%;
+}
+.w-full {
+  width: 100%;
+}
