@@ -36,6 +36,3 @@ th, td{
     justify-content: start;
     padding: 5px 10px;
 }
-.noborder td{
-    border: none;
-}
