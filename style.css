@@ -76,7 +76,7 @@ td {
   flex-direction: column;
 }
 .gap-2 {
-  gap: 10px;
+  gap: 20px;
 }
 .flexdiv {
   width: 100%;
@@ -87,4 +87,23 @@ td {
 }
 .w-full {
   width: 100%;
+}
+.Footer,
+.Footer tr,
+.Footer td {
+  border: none;
+}
+
+.Footer {
+  margin-top: 80px;
+  text-align: center;
+}
+.Footer tr {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+.Footer td {
+  border-top: 1px solid black;
+  width: 200px;
 }
